@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './Business.css';
 
-const Business = {
+const business = {
     imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
     name: 'MarginOtto Pizzeria',
     address: '1010 Paddington Way',
@@ -18,21 +18,21 @@ class Business extends React.Component {
     render() {
 
         return (
-  <div className={Business.name}>
+  <div className={business.name}>
   <div className="image-container">
-    <img src={Business.imageSrc} alt={Business.name}/>
+    <img src={Business.imageSrc} alt={business.name}/>
   </div>
   <h2>MarginOtto Pizzeria</h2>
   <div className="Business-information">
     <div className="Business-address">
-      <p>{Business.address}</p>
-      <p>{Business.city}</p>
-      <p>{Business.state} {Business.zipCode}</p>
+      <p>{business.address}</p>
+      <p>{business.city}</p>
+      <p>{business.state} {business.zipCode}</p>
     </div>
     <div className="Business-reviews">
-      <h3>{Business.category}</h3>
-      <h3 className="rating">{Business.rating} stars}</h3>
-      <p>{Business.reviewCount} reviews</p>
+      <h3>{business.category}</h3>
+      <h3 className="rating">{business.rating} stars}</h3>
+      <p>{business.reviewCount} reviews</p>
     </div>
   </div>
 </div>

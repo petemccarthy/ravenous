@@ -1,11 +1,8 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import './BusinessList';
+import './BusinessList.css';
 import Business from '../Business/Business';
 
-const BusinessList = {
-
-}
 
 class BusinessList extends React.Component {
     render() {
