@@ -18,9 +18,9 @@ class Business extends React.Component {
 
         return (
   <div className="Business">
-  <div className="image-container">
-    <img src={business.imageSrc}/>
-  </div>
+    <div className="image-container">
+      <img src={business.imageSrc}/>
+    </div>
   <h2>MarginOtto Pizzeria</h2>
   <div className="Business-information">
     <div className="Business-address">
